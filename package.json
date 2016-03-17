@@ -4,7 +4,8 @@
   "description": "Responsive CSS librarby by Absorb Studios LLC",
   "main": "index.js",
   "scripts": {
-    "test": "function main(){ "
+    "start": "nodemon -e css --ignore bundle.css --exec 'npm run bundle'",
+    "bundle": "rework-npm source.css | myth | cleancss -o bundle.css"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,17 @@
   "bugs": {
     "url": "https://github.com/Xeodee/absorbCSS/issues"
   },
-  "homepage": "https://github.com/Xeodee/absorbCSS#readme"
+  "homepage": "https://github.com/Xeodee/absorbCSS#readme",
+  "devDependencies": {
+    "clean-css": "^3.4.10",
+    "myth": "^1.5.0",
+    "nodemon": "^1.9.1",
+    "rework-npm-cli": "^0.1.1"
+  },
+  "dependencies": {
+    "dom-list": "^1.4.4",
+    "free-style": "^1.1.0",
+    "htmltree-stringify": "^1.0.0",
+    "skelestyle-typography": "0.0.4"
+  }
 }
