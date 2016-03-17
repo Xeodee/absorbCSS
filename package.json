@@ -1,0 +1,26 @@
+{
+  "name": "absorbcss",
+  "version": "1.0.0",
+  "description": "Responsive CSS librarby by Absorb Studios LLC",
+  "main": "index.js",
+  "scripts": {
+    "test": "function main(){ "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xeodee/absorbCSS.git"
+  },
+  "keywords": [
+    "responsive",
+    "css",
+    "framework",
+    "absorb",
+    "studios"
+  ],
+  "author": "Xeo & Ediment",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Xeodee/absorbCSS/issues"
+  },
+  "homepage": "https://github.com/Xeodee/absorbCSS#readme"
+}
